@@ -9,4 +9,15 @@ pathogen interactions: an application to longitudinal pneumococcal carriage data
 - dplyr
 - gtools
 
-### Use
+### Example
+- Number of types: p = 4
+- Baseline acquisition rates: lambda_i = exp(-3.5)
+- Baseline clearance rates: mu_i = exp(-1.5)
+- Interaction parameter in acquisition: log(k) = log(0.5)
+- Interaction parameter in clearance: log(h) = 0
+- Variance in heterogeneity: z_i ~ Gamma(5,5)
+
+- Input file: "example_input.csv"
+- STAN file: "stancode.stan"
+- R file: "rcode.R"
+- Utility file: "utils.R"
