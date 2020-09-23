@@ -6,5 +6,7 @@ pathogen interactions: an application to longitudinal pneumococcal carriage data
 
 ### Prerequisites
 - rstan
+- dplyr
+- gtools
 
 ### Use
