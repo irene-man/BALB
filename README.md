@@ -1,4 +1,4 @@
-# BALB - A Bayesian approximate likelihood-based estimation method
+# BALB - A Bayesian approximate likelihood-based estimation method for inferring multiple-type interactions
 
 ### Brief description
 STAN and R codes for inferring multiple-type pathogen interactions from longitudial data. The code was used to estimate the interaction parameters in the multi-state models proposed in "Approximate likelihood-based estimation method of multiple-type
